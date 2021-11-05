@@ -7,11 +7,11 @@ namespace ArrayList
         static void Main(string[] args)
         {
 
-
-            ArrayList1111 arrayList = new ArrayList1111(new int[0] { });
+            
+            ArrayList arrayList = new ArrayList(new int[3] { 2, 3, 4 });
             //ArrayList1111 arrayLis = new ArrayList1111(new int[0] { });
-
-            arrayList.Get(0);
+            arrayList.MoveElementsToRight(2, 6);
+            //arrayList.Get(0);
             //arrayList.AddFirst(arrayLis);
             //arrayList.AddAt(0, arrayLis);
             //arrayList.AddLast(2);
@@ -45,7 +45,7 @@ namespace ArrayList
             Console.WriteLine();
             Console.WriteLine(arrayList.GetLength());
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
 
 
